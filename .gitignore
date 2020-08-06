@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+.__pycache__/
+*/logs.log
+
+cache/
+tmp/
+trash/
+mod/logs
+
+.DS_Store
+*.pyc
+*.xml
+*.iml
