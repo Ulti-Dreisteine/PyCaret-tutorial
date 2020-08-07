@@ -70,8 +70,8 @@ if __name__ == '__main__':
 	clf = create_model('rf', verbose = False)
 	# clf_tuned = tune_model(clf)
 
-	evaluate_model(clf)
-	# interpret_model(clf)
+	# evaluate_model(clf)
+	interpret_model(clf)
 	# interpret_model(clf, plot = 'correlation')
 	
 
