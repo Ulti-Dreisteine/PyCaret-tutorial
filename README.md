@@ -4,8 +4,8 @@ PyCaret练练手
 ### 安装  
 ```bash
 pip install pycaret==2.0 -i https://mirrors.aliyun.com/pypi/simple/
-pip install shap
-brew install libomp  # 如果遇到lightgbm报错则执行该安装
+pip install shap -i https://mirrors.aliyun.com/pypi/simple/  # 图形可视化
+brew install libomp  # 如果macos上遇到lightgbm报错则执行该安装
 ```
 
 ### 运行
