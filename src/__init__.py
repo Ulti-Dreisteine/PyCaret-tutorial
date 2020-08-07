@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on 2020/8/6 3:47 下午
+Created on 2020/8/7 11:34 上午
 
-@File: __init__.py.py
-
-@Department: AI Lab, Rockontrol, Chengdu
+@Project -> File: PyCaret-tutorial -> __init__.py
 
 @Author: luolei
 
 @Email: dreisteine262@163.com
 
-@Describe: src初始化
+@Describe: 初始化目录
 """
 
 import sys
@@ -33,6 +31,3 @@ test_params = config_loader.test_params
 # ============ 模型参数 ============
 
 # ============ 测试参数 ============
-
-
-
