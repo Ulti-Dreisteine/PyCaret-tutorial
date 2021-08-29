@@ -1,33 +1,36 @@
 # -*- coding: utf-8 -*-
 """
-Created on 2020/8/7 11:34 上午
+Created on 2020/1/21 下午3:01
 
-@Project -> File: PyCaret-tutorial -> __init__.py
+@Project -> File: pollution-forecast-offline-training-version-2 -> settings.py
 
 @Author: luolei
 
 @Email: dreisteine262@163.com
 
-@Describe: 初始化目录
+@Describe: 默认设置
 """
 
 import sys
+import os
 
-sys.path.append('../')
+BASE_DIR = os.path.abspath(os.path.join(os.path.abspath(__file__), '../' * 2))
+sys.path.append(BASE_DIR)
 
 from mod.config.config_loader import config_loader
 
-proj_dir, proj_cmap = config_loader.proj_dir, config_loader.proj_cmap
+PROJ_DIR, PROJ_CMAP = config_loader.proj_dir, config_loader.proj_cmap
+plt = config_loader.proj_plt
 
-# 项目变量配置.
-environ_config = config_loader.environ_config
-model_config = config_loader.model_config
-test_params = config_loader.test_params
+# 载入项目变量配置.
+ENC_CONFIG = config_loader.environ_config
+MODEL_CONFIG = config_loader.model_config
+TEST_PARAMS = config_loader.test_params
 
-# ============ 通用函数 ============
+# ---- 定义环境变量 ---------------------------------------------------------------------------------
 
-# ============ 环境变量 ============
+# ---- 定义模型参数 ---------------------------------------------------------------------------------
 
-# ============ 模型参数 ============
+# ---- 定义测试参数 ---------------------------------------------------------------------------------
 
-# ============ 测试参数 ============
+# ---- 定义通用函数 ---------------------------------------------------------------------------------
