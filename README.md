@@ -10,6 +10,11 @@ pip install shap -i https://mirrors.aliyun.com/pypi/simple/  # 图形可视化
 brew install libomp  # 如果macos上遇到lightgbm报错则执行该安装
 ```
 
+brew安装：
+```bash
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
 PyCaret 2.3版本(建议安装Python 3.8)：
 ```bash
 # pip install pycaret==2.3 -i https://mirrors.aliyun.com/pypi/simple/
